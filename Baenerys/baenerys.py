@@ -15,8 +15,9 @@ async def baenarys():
         await client.say(s)
         await asyncio.sleep(1.5)
 
-@client.command(pass_context=True)
-async def danny(ctx):
+
+@client.command(pass_context=True, aliases=['danny'])
+async def dany(ctx):
     try:
         summoned_channel = ctx.message.author.voice_channel
         if summoned_channel is None:
