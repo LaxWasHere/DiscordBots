@@ -1,0 +1,1 @@
+Bot to keep track of whoever dies first in our squad. http://i.imgur.com/GJFGiT1.png
